@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  background-color: #333;
+}
+
+.square {
+  width: 300px;
+  height: 300px;
+  color: gold;
+  background-color: gold;
+}
+
+@media (min-width: 500px) {
+  .square {
+    background-color: royalblue;
+  }
+}
+
+@media (min-width: 700px) {
+  .square {
+    background-color: lime;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 850px) {
+  .square {
+    width: 450px;
+  }
+}
+
+@media (min-width: 800px) {
+  .body {
+    width: 450px;
+  }
+}
